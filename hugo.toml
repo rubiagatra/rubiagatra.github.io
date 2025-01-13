@@ -6,9 +6,6 @@ theme = 'typo'
 [taxonomies]
 tag = 'tags'
 
-# Google analytics code
-googleAnalytics = "G-xxxxxxxxx"
-
 [params]
 # Meta description
 description = "Doni Rubiagatra Tech Blog"
@@ -71,12 +68,3 @@ url = "/about"
 [markup.highlight]
 style = 'algol'
 
-# Giscus comments
-[params.giscus]
-enable = false
-repo = "user/repo"
-repoid = "repoId"
-category = "General"
-categoryid = "categoryId"
-mapping = "pathname"
-theme = "preferred_color_scheme"
